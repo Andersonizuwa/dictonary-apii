@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+/* body{
+    font-family: "Poppins";
+} */
+
+p{
+    font-weight: 900px;
+}
+.text-center{
+    position: relative;
+    top: 30px;
+}
+h1{
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+span{
+    color: blue;
+    font-size: 90px;
+}
+footer{
+    text-align: center;
+    position: relative;
+    bottom: -200px;
+    right: -40px;
+}
+#search{
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    color: black;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    height: 100%;
+    width: 25%;
+    position: relative;
+    padding: 5px 30px;
+    margin-left: 4em;
+    margin-top: -9em;
+}
+#btn{
+    position: relative;
+    top: -5px;
+    border-radius: 2px;
+    padding: 8px;
+    width: 100px;
+}
+#wordheading{
+    position: relative;
+    left: -350px;
+    top: 100px;
+    font-size: 18px;
+    
+}
+#definition{
+    position: relative;
+    top: 100px;
+    width: 70%;
+    padding: 15px;
+    left: 200px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+    
+@media (min-width: 768px){
+    #search{
+        width: 80%;
+    }
+}
+@media (max-width: 768px){
+    #search{
+        width: 80%;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    #btn{
+        position: relative;
+        top: 10px;
+        right: -10px;
+    }
+    #wordheading{
+        position: relative;
+        left: -50px;
+    }
+    #definition{
+        font-size: 15px;
+        width: 100%;
+        position: relative;
+        left: 1px;
+    }
+}
